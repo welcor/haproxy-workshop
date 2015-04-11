@@ -7,4 +7,7 @@
 ## Introduksjon
  -> ppt
  
-##
+## Oppgaver
+ * Enkel lastbalansering mellom 2 servere
+ * Nedetidsfri deploy
+ * Consul?
