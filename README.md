@@ -15,8 +15,10 @@
 * http://cbonte.github.io/haproxy-dconv/configuration-1.5.html
 
 ## Oppgaver
- * Enkel lastbalansering mellom 2 servere
+ * Lastbalansering mellom 2 servere
    * Level 4
    * Level 7
  * Nedetidsfri deploy
- * Consul?
+ * Rate limiting, DDoS protection
+ * SSL-terminering
+ * Consul integrasjon?
