@@ -1,4 +1,4 @@
-# HAproxy workshop
+# HAProxy workshop
 ## Hjemmelekse
 * Last ned [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Last ned [Vagrant](http://downloads.vagrantup.com/)
@@ -10,6 +10,9 @@
 * ```vagrant reload``` Last opp med ny Vagrant-konfigurasjon
 
 ## Introduksjon
+
+## Ressurser
+* http://cbonte.github.io/haproxy-dconv/configuration-1.5.html
 
 ## Oppgaver
  * Enkel lastbalansering mellom 2 servere
