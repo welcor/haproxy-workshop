@@ -2,3 +2,4 @@ box
 *.pptx
 .vagrant
 .DS_Store
+.idea
