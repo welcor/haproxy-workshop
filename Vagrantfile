@@ -2,10 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  # config.vm.box = "ubuntu/trusty64"
-  config.vm.box = "haproxy_workshop"
-  config.vm.box_url = "https://s3-eu-west-1.amazonaws.com/bekk-devops/devops-kurs.box"
-  
+  config.vm.box = "ubuntu/trusty64"
   config.vm.network :forwarded_port, host: 4567, guest: 80
 
   config.vm.provision "docker" do |d|
