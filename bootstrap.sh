@@ -11,3 +11,6 @@
 add-apt-repository ppa:vbernat/haproxy-1.5
 apt-get update
 apt-get install haproxy
+
+# socat
+apt-get install socat
