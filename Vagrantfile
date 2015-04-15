@@ -2,9 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  # config.vm.box = "ubuntu/trusty64"
-  config.vm.box = "haproxy_workshop"
-  config.vm.box_url = "https://s3-eu-west-1.amazonaws.com/bekk-devops/devops-kurs.box"
+  config.vm.box = "debian/jessie"
+  #config.vm.box = "haproxy_workshop"
+  config.vm.box_url = "http://static.gender-api.com/debian-8-jessie-rc2-x64-slim.box"
   
   config.vm.network :forwarded_port, host: 4567, guest: 80
 
